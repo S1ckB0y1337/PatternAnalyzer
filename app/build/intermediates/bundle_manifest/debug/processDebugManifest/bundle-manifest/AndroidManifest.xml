@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.buftas.patternanalyzer"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="28"
+        android:targetSdkVersion="28" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_INTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true" >
+        <activity
+            android:name="com.buftas.patternanalyzer.PatternUsabilityGraphActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.buftas.patternanalyzer.PointFrequencyGraphActivity" />
+        <activity android:name="com.buftas.patternanalyzer.StatisticsActivity" />
+        <activity android:name="com.buftas.patternanalyzer.PianoPatternActivity" />
+        <activity android:name="com.buftas.patternanalyzer.ColorPatternActivity" />
+        <activity android:name="com.buftas.patternanalyzer.MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name="com.amitshekhar.debug.DebugDBInitProvider"
+            android:authorities="com.buftas.patternanalyzer.DebugDBInitProvider"
+            android:enabled="true"
+            android:exported="false" />
+    </application>
+
+</manifest>

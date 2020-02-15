@@ -1,0 +1,226 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\buftas\PatternAnalyzer\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from C:\Users\buftas\PatternAnalyzer\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from C:\Users\buftas\PatternAnalyzer\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from C:\Users\buftas\PatternAnalyzer\app\src\main\AndroidManifest.xml:2:1-31:12
+MERGED from [com.amitshekhar.android:debug-db:1.0.6] C:\Users\buftas\.gradle\caches\transforms-2\files-2.1\55306c0cb336335b9894e3e4137fe288\debug-db-1.0.6\AndroidManifest.xml:2:1-19:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\buftas\.gradle\caches\transforms-2\files-2.1\7f5f0b3369d8fa8a72a20e2278ec0acc\appcompat-v7-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\buftas\.gradle\caches\transforms-2\files-2.1\247f998e4bdaf38a6cc6f3ef395b6cd1\constraint-layout-1.1.3\AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.PhilJay:MPAndroidChart:v3.1.0] C:\Users\buftas\.gradle\caches\transforms-2\files-2.1\eb3a9146f5d372fd624d6a76eb9a5bc9\MPAndroidChart-v3.1.0\AndroidManifest.xml:2:1-20:12
+MERGED from [com.amitshekhar.android:debug-db-base:1.0.6] C:\Users\buftas\.gradle\caches\transforms-2\files-2.1\52ee3c02bd266d25ec91e4a12f53dd39\debug-db-base-1.0.6\AndroidManifest.xml:20:1-32:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\buftas\.gradle\caches\transforms-2\files-2.1\bc3876738bdb5d8e498d8c27630d1092\support-fragment-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.persistence.room:runtime:1.1.1] C:\Users\buftas\.gradle\caches\transforms-2\files-2.1\d9897c1f98bb236cf80244a836065215\runtime-1.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\buftas\.gradle\caches\transforms-2\files-2.1\c82b71cc23f1f749201c229f1e0919f8\animated-vector-drawable-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\buftas\.gradle\caches\transforms-2\files-2.1\240ad4e7c0a4c0f0ac07ba22afac43c2\support-core-ui-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\buftas\.gradle\caches\transforms-2\files-2.1\13f115cc5d5138e9ed6d7046dab5d030\support-core-utils-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\buftas\.gradle\caches\transforms-2\files-2.1\6c361ce609604c8b37cbff4112761818\support-vector-drawable-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\buftas\.gradle\caches\transforms-2\files-2.1\776dfa9be835a7a130740bd6b0619584\loader-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\buftas\.gradle\caches\transforms-2\files-2.1\4660acd0807cc71ba66bee2bd6cbbbe5\viewpager-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\buftas\.gradle\caches\transforms-2\files-2.1\2f9ffac3f9aa7c3da9b2ea0a60bff798\coordinatorlayout-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\buftas\.gradle\caches\transforms-2\files-2.1\e393f8741de26a3dcc6eeb170bd18679\drawerlayout-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\buftas\.gradle\caches\transforms-2\files-2.1\c98a9bc0a455ab0200cce6feac99fa67\slidingpanelayout-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\buftas\.gradle\caches\transforms-2\files-2.1\b82955ed32a4ee277723d8123c155ac3\customview-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\buftas\.gradle\caches\transforms-2\files-2.1\8756cea37b098f254fcf1c05271849e1\swiperefreshlayout-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\buftas\.gradle\caches\transforms-2\files-2.1\e2a5a2145c109898fc28f4778cc59fa2\asynclayoutinflater-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\buftas\.gradle\caches\transforms-2\files-2.1\b73d0db3c489aeab8b531c92b0313ef9\support-compat-28.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\buftas\.gradle\caches\transforms-2\files-2.1\b93ddaf99704c9896c23344bb8a6cc5b\versionedparcelable-28.0.0\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\buftas\.gradle\caches\transforms-2\files-2.1\f89186d3faa35207960141dbf97e7823\cursoradapter-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\buftas\.gradle\caches\transforms-2\files-2.1\912d14cf8b7da59afd70a06b1ab8df17\runtime-1.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\buftas\.gradle\caches\transforms-2\files-2.1\6382b0a1555e0e71f2a2930dfe6b1d66\documentfile-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\buftas\.gradle\caches\transforms-2\files-2.1\ab60f6dd6ef13cb57d98ea7973f298c0\localbroadcastmanager-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\buftas\.gradle\caches\transforms-2\files-2.1\441dd746fc5507909e127eaa50801847\print-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\buftas\.gradle\caches\transforms-2\files-2.1\e30d9e6f3403e84c4cae532d406e4009\viewmodel-1.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.persistence:db-framework:1.1.1] C:\Users\buftas\.gradle\caches\transforms-2\files-2.1\69a0ac3eaf01ce9ae6e7f5f320e30173\db-framework-1.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.persistence:db:1.1.1] C:\Users\buftas\.gradle\caches\transforms-2\files-2.1\f151d76c949b4dea6fe77dbb082e8ee2\db-1.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\buftas\.gradle\caches\transforms-2\files-2.1\855199d21a2457dffd94f776f414402b\livedata-1.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\buftas\.gradle\caches\transforms-2\files-2.1\0c580ad6917269345b415f2689381fa7\livedata-core-1.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\buftas\.gradle\caches\transforms-2\files-2.1\32c3c3c1ff1572cd4fbf4adc8b2e281b\runtime-1.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\buftas\.gradle\caches\transforms-2\files-2.1\9f66af0770fd83464340388aae824c93\interpolator-28.0.0\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\buftas\PatternAnalyzer\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from C:\Users\buftas\PatternAnalyzer\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from C:\Users\buftas\PatternAnalyzer\app\src\main\AndroidManifest.xml:2:1-31:12
+	package
+		ADDED from C:\Users\buftas\PatternAnalyzer\app\src\main\AndroidManifest.xml:3:5-41
+		INJECTED from C:\Users\buftas\PatternAnalyzer\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\buftas\PatternAnalyzer\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\buftas\PatternAnalyzer\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\buftas\PatternAnalyzer\app\src\main\AndroidManifest.xml:2:1-31:12
+		INJECTED from C:\Users\buftas\PatternAnalyzer\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\buftas\PatternAnalyzer\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\buftas\PatternAnalyzer\app\src\main\AndroidManifest.xml:2:1-31:12
+		INJECTED from C:\Users\buftas\PatternAnalyzer\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\buftas\PatternAnalyzer\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\buftas\PatternAnalyzer\app\src\main\AndroidManifest.xml:5:5-81
+	android:name
+		ADDED from C:\Users\buftas\PatternAnalyzer\app\src\main\AndroidManifest.xml:5:22-78
+uses-permission#android.permission.WRITE_INTERNAL_STORAGE
+ADDED from C:\Users\buftas\PatternAnalyzer\app\src\main\AndroidManifest.xml:6:5-81
+	android:name
+		ADDED from C:\Users\buftas\PatternAnalyzer\app\src\main\AndroidManifest.xml:6:22-78
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\buftas\PatternAnalyzer\app\src\main\AndroidManifest.xml:7:5-67
+MERGED from [com.amitshekhar.android:debug-db-base:1.0.6] C:\Users\buftas\.gradle\caches\transforms-2\files-2.1\52ee3c02bd266d25ec91e4a12f53dd39\debug-db-base-1.0.6\AndroidManifest.xml:29:5-67
+MERGED from [com.amitshekhar.android:debug-db-base:1.0.6] C:\Users\buftas\.gradle\caches\transforms-2\files-2.1\52ee3c02bd266d25ec91e4a12f53dd39\debug-db-base-1.0.6\AndroidManifest.xml:29:5-67
+	android:name
+		ADDED from C:\Users\buftas\PatternAnalyzer\app\src\main\AndroidManifest.xml:7:22-64
+application
+ADDED from C:\Users\buftas\PatternAnalyzer\app\src\main\AndroidManifest.xml:9:5-29:19
+MERGED from [com.amitshekhar.android:debug-db:1.0.6] C:\Users\buftas\.gradle\caches\transforms-2\files-2.1\55306c0cb336335b9894e3e4137fe288\debug-db-1.0.6\AndroidManifest.xml:11:5-17:19
+MERGED from [com.amitshekhar.android:debug-db:1.0.6] C:\Users\buftas\.gradle\caches\transforms-2\files-2.1\55306c0cb336335b9894e3e4137fe288\debug-db-1.0.6\AndroidManifest.xml:11:5-17:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\buftas\.gradle\caches\transforms-2\files-2.1\247f998e4bdaf38a6cc6f3ef395b6cd1\constraint-layout-1.1.3\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\buftas\.gradle\caches\transforms-2\files-2.1\247f998e4bdaf38a6cc6f3ef395b6cd1\constraint-layout-1.1.3\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\buftas\.gradle\caches\transforms-2\files-2.1\b73d0db3c489aeab8b531c92b0313ef9\support-compat-28.0.0\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\buftas\.gradle\caches\transforms-2\files-2.1\b73d0db3c489aeab8b531c92b0313ef9\support-compat-28.0.0\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\buftas\.gradle\caches\transforms-2\files-2.1\b93ddaf99704c9896c23344bb8a6cc5b\versionedparcelable-28.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\buftas\.gradle\caches\transforms-2\files-2.1\b93ddaf99704c9896c23344bb8a6cc5b\versionedparcelable-28.0.0\AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\buftas\.gradle\caches\transforms-2\files-2.1\b73d0db3c489aeab8b531c92b0313ef9\support-compat-28.0.0\AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from C:\Users\buftas\PatternAnalyzer\app\src\main\AndroidManifest.xml:14:9-35
+	android:label
+		ADDED from C:\Users\buftas\PatternAnalyzer\app\src\main\AndroidManifest.xml:12:9-41
+	android:roundIcon
+		ADDED from C:\Users\buftas\PatternAnalyzer\app\src\main\AndroidManifest.xml:13:9-54
+	android:icon
+		ADDED from C:\Users\buftas\PatternAnalyzer\app\src\main\AndroidManifest.xml:11:9-43
+	android:allowBackup
+		ADDED from C:\Users\buftas\PatternAnalyzer\app\src\main\AndroidManifest.xml:10:9-35
+	android:theme
+		ADDED from C:\Users\buftas\PatternAnalyzer\app\src\main\AndroidManifest.xml:15:9-40
+	android:usesCleartextTraffic
+		ADDED from C:\Users\buftas\PatternAnalyzer\app\src\main\AndroidManifest.xml:16:9-44
+activity#com.buftas.patternanalyzer.PatternUsabilityGraphActivity
+ADDED from C:\Users\buftas\PatternAnalyzer\app\src\main\AndroidManifest.xml:17:9-113
+	android:screenOrientation
+		ADDED from C:\Users\buftas\PatternAnalyzer\app\src\main\AndroidManifest.xml:17:65-101
+	android:name
+		ADDED from C:\Users\buftas\PatternAnalyzer\app\src\main\AndroidManifest.xml:17:19-64
+activity#com.buftas.patternanalyzer.PointFrequencyGraphActivity
+ADDED from C:\Users\buftas\PatternAnalyzer\app\src\main\AndroidManifest.xml:18:9-65
+	android:name
+		ADDED from C:\Users\buftas\PatternAnalyzer\app\src\main\AndroidManifest.xml:18:19-62
+activity#com.buftas.patternanalyzer.StatisticsActivity
+ADDED from C:\Users\buftas\PatternAnalyzer\app\src\main\AndroidManifest.xml:19:9-56
+	android:name
+		ADDED from C:\Users\buftas\PatternAnalyzer\app\src\main\AndroidManifest.xml:19:19-53
+activity#com.buftas.patternanalyzer.PianoPatternActivity
+ADDED from C:\Users\buftas\PatternAnalyzer\app\src\main\AndroidManifest.xml:20:9-58
+	android:name
+		ADDED from C:\Users\buftas\PatternAnalyzer\app\src\main\AndroidManifest.xml:20:19-55
+activity#com.buftas.patternanalyzer.ColorPatternActivity
+ADDED from C:\Users\buftas\PatternAnalyzer\app\src\main\AndroidManifest.xml:21:9-58
+	android:name
+		ADDED from C:\Users\buftas\PatternAnalyzer\app\src\main\AndroidManifest.xml:21:19-55
+activity#com.buftas.patternanalyzer.MainActivity
+ADDED from C:\Users\buftas\PatternAnalyzer\app\src\main\AndroidManifest.xml:22:9-28:20
+	android:name
+		ADDED from C:\Users\buftas\PatternAnalyzer\app\src\main\AndroidManifest.xml:22:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\buftas\PatternAnalyzer\app\src\main\AndroidManifest.xml:23:13-27:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\buftas\PatternAnalyzer\app\src\main\AndroidManifest.xml:24:17-69
+	android:name
+		ADDED from C:\Users\buftas\PatternAnalyzer\app\src\main\AndroidManifest.xml:24:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\buftas\PatternAnalyzer\app\src\main\AndroidManifest.xml:26:17-77
+	android:name
+		ADDED from C:\Users\buftas\PatternAnalyzer\app\src\main\AndroidManifest.xml:26:27-74
+uses-sdk
+INJECTED from C:\Users\buftas\PatternAnalyzer\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\buftas\PatternAnalyzer\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\buftas\PatternAnalyzer\app\src\main\AndroidManifest.xml
+MERGED from [com.amitshekhar.android:debug-db:1.0.6] C:\Users\buftas\.gradle\caches\transforms-2\files-2.1\55306c0cb336335b9894e3e4137fe288\debug-db-1.0.6\AndroidManifest.xml:7:5-9:41
+MERGED from [com.amitshekhar.android:debug-db:1.0.6] C:\Users\buftas\.gradle\caches\transforms-2\files-2.1\55306c0cb336335b9894e3e4137fe288\debug-db-1.0.6\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\buftas\.gradle\caches\transforms-2\files-2.1\7f5f0b3369d8fa8a72a20e2278ec0acc\appcompat-v7-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\buftas\.gradle\caches\transforms-2\files-2.1\7f5f0b3369d8fa8a72a20e2278ec0acc\appcompat-v7-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\buftas\.gradle\caches\transforms-2\files-2.1\247f998e4bdaf38a6cc6f3ef395b6cd1\constraint-layout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\buftas\.gradle\caches\transforms-2\files-2.1\247f998e4bdaf38a6cc6f3ef395b6cd1\constraint-layout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.PhilJay:MPAndroidChart:v3.1.0] C:\Users\buftas\.gradle\caches\transforms-2\files-2.1\eb3a9146f5d372fd624d6a76eb9a5bc9\MPAndroidChart-v3.1.0\AndroidManifest.xml:16:5-18:41
+MERGED from [com.github.PhilJay:MPAndroidChart:v3.1.0] C:\Users\buftas\.gradle\caches\transforms-2\files-2.1\eb3a9146f5d372fd624d6a76eb9a5bc9\MPAndroidChart-v3.1.0\AndroidManifest.xml:16:5-18:41
+MERGED from [com.amitshekhar.android:debug-db-base:1.0.6] C:\Users\buftas\.gradle\caches\transforms-2\files-2.1\52ee3c02bd266d25ec91e4a12f53dd39\debug-db-base-1.0.6\AndroidManifest.xml:25:5-27:41
+MERGED from [com.amitshekhar.android:debug-db-base:1.0.6] C:\Users\buftas\.gradle\caches\transforms-2\files-2.1\52ee3c02bd266d25ec91e4a12f53dd39\debug-db-base-1.0.6\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\buftas\.gradle\caches\transforms-2\files-2.1\bc3876738bdb5d8e498d8c27630d1092\support-fragment-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\buftas\.gradle\caches\transforms-2\files-2.1\bc3876738bdb5d8e498d8c27630d1092\support-fragment-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence.room:runtime:1.1.1] C:\Users\buftas\.gradle\caches\transforms-2\files-2.1\d9897c1f98bb236cf80244a836065215\runtime-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence.room:runtime:1.1.1] C:\Users\buftas\.gradle\caches\transforms-2\files-2.1\d9897c1f98bb236cf80244a836065215\runtime-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\buftas\.gradle\caches\transforms-2\files-2.1\c82b71cc23f1f749201c229f1e0919f8\animated-vector-drawable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\buftas\.gradle\caches\transforms-2\files-2.1\c82b71cc23f1f749201c229f1e0919f8\animated-vector-drawable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\buftas\.gradle\caches\transforms-2\files-2.1\240ad4e7c0a4c0f0ac07ba22afac43c2\support-core-ui-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\buftas\.gradle\caches\transforms-2\files-2.1\240ad4e7c0a4c0f0ac07ba22afac43c2\support-core-ui-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\buftas\.gradle\caches\transforms-2\files-2.1\13f115cc5d5138e9ed6d7046dab5d030\support-core-utils-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\buftas\.gradle\caches\transforms-2\files-2.1\13f115cc5d5138e9ed6d7046dab5d030\support-core-utils-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\buftas\.gradle\caches\transforms-2\files-2.1\6c361ce609604c8b37cbff4112761818\support-vector-drawable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\buftas\.gradle\caches\transforms-2\files-2.1\6c361ce609604c8b37cbff4112761818\support-vector-drawable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\buftas\.gradle\caches\transforms-2\files-2.1\776dfa9be835a7a130740bd6b0619584\loader-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\buftas\.gradle\caches\transforms-2\files-2.1\776dfa9be835a7a130740bd6b0619584\loader-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\buftas\.gradle\caches\transforms-2\files-2.1\4660acd0807cc71ba66bee2bd6cbbbe5\viewpager-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\buftas\.gradle\caches\transforms-2\files-2.1\4660acd0807cc71ba66bee2bd6cbbbe5\viewpager-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\buftas\.gradle\caches\transforms-2\files-2.1\2f9ffac3f9aa7c3da9b2ea0a60bff798\coordinatorlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\buftas\.gradle\caches\transforms-2\files-2.1\2f9ffac3f9aa7c3da9b2ea0a60bff798\coordinatorlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\buftas\.gradle\caches\transforms-2\files-2.1\e393f8741de26a3dcc6eeb170bd18679\drawerlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\buftas\.gradle\caches\transforms-2\files-2.1\e393f8741de26a3dcc6eeb170bd18679\drawerlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\buftas\.gradle\caches\transforms-2\files-2.1\c98a9bc0a455ab0200cce6feac99fa67\slidingpanelayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\buftas\.gradle\caches\transforms-2\files-2.1\c98a9bc0a455ab0200cce6feac99fa67\slidingpanelayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\buftas\.gradle\caches\transforms-2\files-2.1\b82955ed32a4ee277723d8123c155ac3\customview-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\buftas\.gradle\caches\transforms-2\files-2.1\b82955ed32a4ee277723d8123c155ac3\customview-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\buftas\.gradle\caches\transforms-2\files-2.1\8756cea37b098f254fcf1c05271849e1\swiperefreshlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\buftas\.gradle\caches\transforms-2\files-2.1\8756cea37b098f254fcf1c05271849e1\swiperefreshlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\buftas\.gradle\caches\transforms-2\files-2.1\e2a5a2145c109898fc28f4778cc59fa2\asynclayoutinflater-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\buftas\.gradle\caches\transforms-2\files-2.1\e2a5a2145c109898fc28f4778cc59fa2\asynclayoutinflater-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\buftas\.gradle\caches\transforms-2\files-2.1\b73d0db3c489aeab8b531c92b0313ef9\support-compat-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\buftas\.gradle\caches\transforms-2\files-2.1\b73d0db3c489aeab8b531c92b0313ef9\support-compat-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\buftas\.gradle\caches\transforms-2\files-2.1\b93ddaf99704c9896c23344bb8a6cc5b\versionedparcelable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\buftas\.gradle\caches\transforms-2\files-2.1\b93ddaf99704c9896c23344bb8a6cc5b\versionedparcelable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\buftas\.gradle\caches\transforms-2\files-2.1\f89186d3faa35207960141dbf97e7823\cursoradapter-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\buftas\.gradle\caches\transforms-2\files-2.1\f89186d3faa35207960141dbf97e7823\cursoradapter-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\buftas\.gradle\caches\transforms-2\files-2.1\912d14cf8b7da59afd70a06b1ab8df17\runtime-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\buftas\.gradle\caches\transforms-2\files-2.1\912d14cf8b7da59afd70a06b1ab8df17\runtime-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\buftas\.gradle\caches\transforms-2\files-2.1\6382b0a1555e0e71f2a2930dfe6b1d66\documentfile-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\buftas\.gradle\caches\transforms-2\files-2.1\6382b0a1555e0e71f2a2930dfe6b1d66\documentfile-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\buftas\.gradle\caches\transforms-2\files-2.1\ab60f6dd6ef13cb57d98ea7973f298c0\localbroadcastmanager-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\buftas\.gradle\caches\transforms-2\files-2.1\ab60f6dd6ef13cb57d98ea7973f298c0\localbroadcastmanager-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\buftas\.gradle\caches\transforms-2\files-2.1\441dd746fc5507909e127eaa50801847\print-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\buftas\.gradle\caches\transforms-2\files-2.1\441dd746fc5507909e127eaa50801847\print-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\buftas\.gradle\caches\transforms-2\files-2.1\e30d9e6f3403e84c4cae532d406e4009\viewmodel-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\buftas\.gradle\caches\transforms-2\files-2.1\e30d9e6f3403e84c4cae532d406e4009\viewmodel-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db-framework:1.1.1] C:\Users\buftas\.gradle\caches\transforms-2\files-2.1\69a0ac3eaf01ce9ae6e7f5f320e30173\db-framework-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db-framework:1.1.1] C:\Users\buftas\.gradle\caches\transforms-2\files-2.1\69a0ac3eaf01ce9ae6e7f5f320e30173\db-framework-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db:1.1.1] C:\Users\buftas\.gradle\caches\transforms-2\files-2.1\f151d76c949b4dea6fe77dbb082e8ee2\db-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db:1.1.1] C:\Users\buftas\.gradle\caches\transforms-2\files-2.1\f151d76c949b4dea6fe77dbb082e8ee2\db-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\buftas\.gradle\caches\transforms-2\files-2.1\855199d21a2457dffd94f776f414402b\livedata-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\buftas\.gradle\caches\transforms-2\files-2.1\855199d21a2457dffd94f776f414402b\livedata-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\buftas\.gradle\caches\transforms-2\files-2.1\0c580ad6917269345b415f2689381fa7\livedata-core-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\buftas\.gradle\caches\transforms-2\files-2.1\0c580ad6917269345b415f2689381fa7\livedata-core-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\buftas\.gradle\caches\transforms-2\files-2.1\32c3c3c1ff1572cd4fbf4adc8b2e281b\runtime-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\buftas\.gradle\caches\transforms-2\files-2.1\32c3c3c1ff1572cd4fbf4adc8b2e281b\runtime-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\buftas\.gradle\caches\transforms-2\files-2.1\9f66af0770fd83464340388aae824c93\interpolator-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\buftas\.gradle\caches\transforms-2\files-2.1\9f66af0770fd83464340388aae824c93\interpolator-28.0.0\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\buftas\PatternAnalyzer\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\buftas\PatternAnalyzer\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\buftas\PatternAnalyzer\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\buftas\PatternAnalyzer\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\buftas\PatternAnalyzer\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\buftas\PatternAnalyzer\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\buftas\PatternAnalyzer\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\buftas\PatternAnalyzer\app\src\main\AndroidManifest.xml
+provider#com.amitshekhar.debug.DebugDBInitProvider
+ADDED from [com.amitshekhar.android:debug-db:1.0.6] C:\Users\buftas\.gradle\caches\transforms-2\files-2.1\55306c0cb336335b9894e3e4137fe288\debug-db-1.0.6\AndroidManifest.xml:12:9-16:40
+	android:enabled
+		ADDED from [com.amitshekhar.android:debug-db:1.0.6] C:\Users\buftas\.gradle\caches\transforms-2\files-2.1\55306c0cb336335b9894e3e4137fe288\debug-db-1.0.6\AndroidManifest.xml:15:13-35
+	android:authorities
+		ADDED from [com.amitshekhar.android:debug-db:1.0.6] C:\Users\buftas\.gradle\caches\transforms-2\files-2.1\55306c0cb336335b9894e3e4137fe288\debug-db-1.0.6\AndroidManifest.xml:14:13-71
+	android:exported
+		ADDED from [com.amitshekhar.android:debug-db:1.0.6] C:\Users\buftas\.gradle\caches\transforms-2\files-2.1\55306c0cb336335b9894e3e4137fe288\debug-db-1.0.6\AndroidManifest.xml:16:13-37
+	android:name
+		ADDED from [com.amitshekhar.android:debug-db:1.0.6] C:\Users\buftas\.gradle\caches\transforms-2\files-2.1\55306c0cb336335b9894e3e4137fe288\debug-db-1.0.6\AndroidManifest.xml:13:13-69
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from [com.amitshekhar.android:debug-db-base:1.0.6] C:\Users\buftas\.gradle\caches\transforms-2\files-2.1\52ee3c02bd266d25ec91e4a12f53dd39\debug-db-base-1.0.6\AndroidManifest.xml:30:5-76
+	android:name
+		ADDED from [com.amitshekhar.android:debug-db-base:1.0.6] C:\Users\buftas\.gradle\caches\transforms-2\files-2.1\52ee3c02bd266d25ec91e4a12f53dd39\debug-db-base-1.0.6\AndroidManifest.xml:30:22-73

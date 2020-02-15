@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PianoPatternActivity">
+
+    <Button
+        android:id="@+id/pianoPatternCancelButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="55dp"
+        android:text="Cancel"
+        app:layout_constraintBaseline_toBaselineOf="@+id/pianoPatternConfirmButton"
+        app:layout_constraintStart_toEndOf="@+id/pianoPatternConfirmButton" />
+
+    <Button
+        android:id="@+id/pianoPatternConfirmButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="16dp"
+        android:text="Confirm"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout" />
+
+    <TextView
+        android:id="@+id/pianoProgressCounter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:layout_marginEnd="84dp"
+        android:text="Entry:"
+        android:textSize="20sp"
+        android:typeface="normal"
+        app:fontFamily="sans-serif-black"
+        app:layout_constraintBaseline_toBaselineOf="@+id/pianoAttemptCounter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/AttempCounter" />
+
+    <TextView
+        android:id="@+id/pianoAttemptCounter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="60dp"
+        android:text="Attempt:"
+        android:textSize="20sp"
+        android:typeface="normal"
+        app:fontFamily="sans-serif-black"
+        app:layout_constraintEnd_toStartOf="@+id/pianoProgressCounter"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pianoPatternUsername" />
+
+    <Button
+        android:id="@+id/pianoPatternStartButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="start"
+        app:layout_constraintBaseline_toBaselineOf="@+id/pianoPatternUsername"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.404"
+        app:layout_constraintStart_toEndOf="@+id/pianoPatternUsername" />
+
+    <EditText
+        android:id="@+id/pianoPatternUsername"
+        android:layout_width="189dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:hint="Username"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pianoPatternInstrcMessg" />
+
+    <TextView
+        android:id="@+id/pianoPatternInstrcMessg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="8dp"
+        android:text="Type your username:"
+        android:textSize="20sp"
+        android:typeface="normal"
+        app:fontFamily="sans-serif-black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.251"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="395dp"
+        android:layout_height="270dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pianoAttemptCounter"
+        app:layout_constraintVertical_bias="0.292">
+
+        <Button
+            android:id="@+id/pianobutton1"
+            android:layout_width="43dp"
+            android:layout_height="300dp"
+            android:layout_marginEnd="352dp"
+            android:background="@drawable/white_button_bg_stroke"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <Button
+            android:id="@+id/pianobutton13"
+            android:layout_width="43dp"
+            android:layout_height="300dp"
+            android:layout_marginEnd="44dp"
+            android:background="@drawable/white_button_bg_stroke"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <Button
+            android:id="@+id/pianobutton12"
+            android:layout_width="43dp"
+            android:layout_height="300dp"
+            android:layout_marginEnd="88dp"
+            android:background="@drawable/white_button_bg_stroke"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <Button
+            android:id="@+id/pianobutton10"
+            android:layout_width="43dp"
+            android:layout_height="300dp"
+            android:layout_marginEnd="132dp"
+            android:background="@drawable/white_button_bg_stroke"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <Button
+            android:id="@+id/pianobutton8"
+            android:layout_width="43dp"
+            android:layout_height="300dp"
+            android:layout_marginEnd="176dp"
+            android:background="@drawable/white_button_bg_stroke"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <Button
+            android:id="@+id/pianobutton6"
+            android:layout_width="43dp"
+            android:layout_height="300dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="220dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/white_button_bg_stroke"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.804" />
+
+        <Button
+            android:id="@+id/pianobutton5"
+            android:layout_width="43dp"
+            android:layout_height="300dp"
+            android:layout_marginEnd="264dp"
+            android:background="@drawable/white_button_bg_stroke"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <Button
+            android:id="@+id/pianobutton3"
+            android:layout_width="43dp"
+            android:layout_height="300dp"
+            android:layout_marginEnd="308dp"
+            android:background="@drawable/white_button_bg_stroke"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <Button
+            android:id="@+id/pianobutton2"
+            android:layout_width="38dp"
+            android:layout_height="230dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="100dp"
+            android:layout_marginBottom="72dp"
+            android:background="@drawable/black_button_bg_stroke"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.059"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/pianobutton11"
+            android:layout_width="38dp"
+            android:layout_height="230dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="101dp"
+            android:layout_marginBottom="72dp"
+            android:background="@drawable/black_button_bg_stroke"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.955"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/pianobutton7"
+            android:layout_width="38dp"
+            android:layout_height="230dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="105dp"
+            android:layout_marginBottom="72dp"
+            android:background="@drawable/black_button_bg_stroke"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.603"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/pianobutton9"
+            android:layout_width="38dp"
+            android:layout_height="230dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="103dp"
+            android:layout_marginBottom="72dp"
+            android:background="@drawable/black_button_bg_stroke"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.782"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/pianobutton4"
+            android:layout_width="38dp"
+            android:layout_height="230dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="100dp"
+            android:layout_marginBottom="72dp"
+            android:background="@drawable/black_button_bg_stroke"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.238"
+            app:layout_constraintStart_toStartOf="parent" />
+    </android.support.constraint.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/Ctext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="220dp"
+        android:layout_marginEnd="8dp"
+        android:fontFamily="sans-serif-black"
+        android:text="C"
+        android:textColor="@android:color/black"
+        android:textSize="28sp"
+        app:layout_constraintEnd_toStartOf="@+id/Dtext"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/constraintLayout" />
+
+    <TextView
+        android:id="@+id/CsharpText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="58dp"
+        android:layout_marginTop="156dp"
+        android:fontFamily="sans-serif-black"
+        android:text="C#"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/constraintLayout" />
+
+    <TextView
+        android:id="@+id/DsharpText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:fontFamily="sans-serif-black"
+        android:text="D#"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/CsharpText"
+        app:layout_constraintStart_toEndOf="@+id/CsharpText" />
+
+    <TextView
+        android:id="@+id/AsharpText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="57dp"
+        android:fontFamily="sans-serif-black"
+        android:text="A#"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/DsharpText"
+        app:layout_constraintStart_toEndOf="@+id/DsharpText" />
+
+    <TextView
+        android:id="@+id/asharpText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="14dp"
+        android:fontFamily="sans-serif-black"
+        android:text="A#"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/GsharpText"
+        app:layout_constraintStart_toEndOf="@+id/GsharpText" />
+
+    <TextView
+        android:id="@+id/GsharpText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:fontFamily="sans-serif-black"
+        android:text="G#"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/AsharpText"
+        app:layout_constraintStart_toEndOf="@+id/AsharpText" />
+
+    <TextView
+        android:id="@+id/Dtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="26dp"
+        android:fontFamily="sans-serif-black"
+        android:text="D"
+        android:textColor="@android:color/black"
+        android:textSize="28sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/Ctext"
+        app:layout_constraintStart_toEndOf="@+id/Ctext" />
+
+    <TextView
+        android:id="@+id/Ftext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="29dp"
+        android:fontFamily="sans-serif-black"
+        android:text="F"
+        android:textColor="@android:color/black"
+        android:textSize="28sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/Etext"
+        app:layout_constraintStart_toEndOf="@+id/Etext" />
+
+    <TextView
+        android:id="@+id/Gtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="26dp"
+        android:fontFamily="sans-serif-black"
+        android:text="G"
+        android:textColor="@android:color/black"
+        android:textSize="28sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/Ftext"
+        app:layout_constraintStart_toEndOf="@+id/Ftext" />
+
+    <TextView
+        android:id="@+id/Atext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:fontFamily="sans-serif-black"
+        android:text="A"
+        android:textColor="@android:color/black"
+        android:textSize="28sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/Gtext"
+        app:layout_constraintStart_toEndOf="@+id/Gtext" />
+
+    <TextView
+        android:id="@+id/Btext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="26dp"
+        android:fontFamily="sans-serif-black"
+        android:text="B"
+        android:textColor="@android:color/black"
+        android:textSize="28sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/Atext"
+        app:layout_constraintStart_toEndOf="@+id/Atext" />
+
+    <TextView
+        android:id="@+id/Ctext2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="26dp"
+        android:fontFamily="sans-serif-black"
+        android:text="C"
+        android:textColor="@android:color/black"
+        android:textSize="28sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/Btext"
+        app:layout_constraintStart_toEndOf="@+id/Btext" />
+
+    <TextView
+        android:id="@+id/Etext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="26dp"
+        android:fontFamily="sans-serif-black"
+        android:text="E"
+        android:textColor="@android:color/black"
+        android:textSize="28sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/Dtext"
+        app:layout_constraintStart_toEndOf="@+id/Dtext" />
+
+
+</android.support.constraint.ConstraintLayout>

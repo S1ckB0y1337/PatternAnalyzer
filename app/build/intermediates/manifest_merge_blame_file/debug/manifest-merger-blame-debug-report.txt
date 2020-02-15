@@ -1,0 +1,90 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.buftas.patternanalyzer"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="28"
+8-->C:\Users\buftas\PatternAnalyzer\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->C:\Users\buftas\PatternAnalyzer\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+11-->C:\Users\buftas\PatternAnalyzer\app\src\main\AndroidManifest.xml:5:5-81
+11-->C:\Users\buftas\PatternAnalyzer\app\src\main\AndroidManifest.xml:5:22-78
+12    <uses-permission android:name="android.permission.WRITE_INTERNAL_STORAGE" />
+12-->C:\Users\buftas\PatternAnalyzer\app\src\main\AndroidManifest.xml:6:5-81
+12-->C:\Users\buftas\PatternAnalyzer\app\src\main\AndroidManifest.xml:6:22-78
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->C:\Users\buftas\PatternAnalyzer\app\src\main\AndroidManifest.xml:7:5-67
+13-->C:\Users\buftas\PatternAnalyzer\app\src\main\AndroidManifest.xml:7:22-64
+14    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+14-->[com.amitshekhar.android:debug-db-base:1.0.6] C:\Users\buftas\.gradle\caches\transforms-2\files-2.1\52ee3c02bd266d25ec91e4a12f53dd39\debug-db-base-1.0.6\AndroidManifest.xml:30:5-76
+14-->[com.amitshekhar.android:debug-db-base:1.0.6] C:\Users\buftas\.gradle\caches\transforms-2\files-2.1\52ee3c02bd266d25ec91e4a12f53dd39\debug-db-base-1.0.6\AndroidManifest.xml:30:22-73
+15
+16    <application
+16-->C:\Users\buftas\PatternAnalyzer\app\src\main\AndroidManifest.xml:9:5-29:19
+17        android:allowBackup="true"
+17-->C:\Users\buftas\PatternAnalyzer\app\src\main\AndroidManifest.xml:10:9-35
+18        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+18-->[com.android.support:support-compat:28.0.0] C:\Users\buftas\.gradle\caches\transforms-2\files-2.1\b73d0db3c489aeab8b531c92b0313ef9\support-compat-28.0.0\AndroidManifest.xml:22:18-91
+19        android:debuggable="true"
+20        android:icon="@mipmap/ic_launcher"
+20-->C:\Users\buftas\PatternAnalyzer\app\src\main\AndroidManifest.xml:11:9-43
+21        android:label="@string/app_name"
+21-->C:\Users\buftas\PatternAnalyzer\app\src\main\AndroidManifest.xml:12:9-41
+22        android:roundIcon="@mipmap/ic_launcher_round"
+22-->C:\Users\buftas\PatternAnalyzer\app\src\main\AndroidManifest.xml:13:9-54
+23        android:supportsRtl="true"
+23-->C:\Users\buftas\PatternAnalyzer\app\src\main\AndroidManifest.xml:14:9-35
+24        android:theme="@style/AppTheme"
+24-->C:\Users\buftas\PatternAnalyzer\app\src\main\AndroidManifest.xml:15:9-40
+25        android:usesCleartextTraffic="true" >
+25-->C:\Users\buftas\PatternAnalyzer\app\src\main\AndroidManifest.xml:16:9-44
+26        <activity
+26-->C:\Users\buftas\PatternAnalyzer\app\src\main\AndroidManifest.xml:17:9-113
+27            android:name="com.buftas.patternanalyzer.PatternUsabilityGraphActivity"
+27-->C:\Users\buftas\PatternAnalyzer\app\src\main\AndroidManifest.xml:17:19-64
+28            android:screenOrientation="portrait" />
+28-->C:\Users\buftas\PatternAnalyzer\app\src\main\AndroidManifest.xml:17:65-101
+29        <activity android:name="com.buftas.patternanalyzer.PointFrequencyGraphActivity" />
+29-->C:\Users\buftas\PatternAnalyzer\app\src\main\AndroidManifest.xml:18:9-65
+29-->C:\Users\buftas\PatternAnalyzer\app\src\main\AndroidManifest.xml:18:19-62
+30        <activity android:name="com.buftas.patternanalyzer.StatisticsActivity" />
+30-->C:\Users\buftas\PatternAnalyzer\app\src\main\AndroidManifest.xml:19:9-56
+30-->C:\Users\buftas\PatternAnalyzer\app\src\main\AndroidManifest.xml:19:19-53
+31        <activity android:name="com.buftas.patternanalyzer.PianoPatternActivity" />
+31-->C:\Users\buftas\PatternAnalyzer\app\src\main\AndroidManifest.xml:20:9-58
+31-->C:\Users\buftas\PatternAnalyzer\app\src\main\AndroidManifest.xml:20:19-55
+32        <activity android:name="com.buftas.patternanalyzer.ColorPatternActivity" />
+32-->C:\Users\buftas\PatternAnalyzer\app\src\main\AndroidManifest.xml:21:9-58
+32-->C:\Users\buftas\PatternAnalyzer\app\src\main\AndroidManifest.xml:21:19-55
+33        <activity android:name="com.buftas.patternanalyzer.MainActivity" >
+33-->C:\Users\buftas\PatternAnalyzer\app\src\main\AndroidManifest.xml:22:9-28:20
+33-->C:\Users\buftas\PatternAnalyzer\app\src\main\AndroidManifest.xml:22:19-47
+34            <intent-filter>
+34-->C:\Users\buftas\PatternAnalyzer\app\src\main\AndroidManifest.xml:23:13-27:29
+35                <action android:name="android.intent.action.MAIN" />
+35-->C:\Users\buftas\PatternAnalyzer\app\src\main\AndroidManifest.xml:24:17-69
+35-->C:\Users\buftas\PatternAnalyzer\app\src\main\AndroidManifest.xml:24:25-66
+36
+37                <category android:name="android.intent.category.LAUNCHER" />
+37-->C:\Users\buftas\PatternAnalyzer\app\src\main\AndroidManifest.xml:26:17-77
+37-->C:\Users\buftas\PatternAnalyzer\app\src\main\AndroidManifest.xml:26:27-74
+38            </intent-filter>
+39        </activity>
+40
+41        <provider
+41-->[com.amitshekhar.android:debug-db:1.0.6] C:\Users\buftas\.gradle\caches\transforms-2\files-2.1\55306c0cb336335b9894e3e4137fe288\debug-db-1.0.6\AndroidManifest.xml:12:9-16:40
+42            android:name="com.amitshekhar.debug.DebugDBInitProvider"
+42-->[com.amitshekhar.android:debug-db:1.0.6] C:\Users\buftas\.gradle\caches\transforms-2\files-2.1\55306c0cb336335b9894e3e4137fe288\debug-db-1.0.6\AndroidManifest.xml:13:13-69
+43            android:authorities="com.buftas.patternanalyzer.DebugDBInitProvider"
+43-->[com.amitshekhar.android:debug-db:1.0.6] C:\Users\buftas\.gradle\caches\transforms-2\files-2.1\55306c0cb336335b9894e3e4137fe288\debug-db-1.0.6\AndroidManifest.xml:14:13-71
+44            android:enabled="true"
+44-->[com.amitshekhar.android:debug-db:1.0.6] C:\Users\buftas\.gradle\caches\transforms-2\files-2.1\55306c0cb336335b9894e3e4137fe288\debug-db-1.0.6\AndroidManifest.xml:15:13-35
+45            android:exported="false" />
+45-->[com.amitshekhar.android:debug-db:1.0.6] C:\Users\buftas\.gradle\caches\transforms-2\files-2.1\55306c0cb336335b9894e3e4137fe288\debug-db-1.0.6\AndroidManifest.xml:16:13-37
+46    </application>
+47
+48</manifest>
